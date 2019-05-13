@@ -1,0 +1,33 @@
+---
+title: Map
+author: Silvio
+date: '2019-05-13'
+slug: map
+categories: []
+tags: []
+active: yes
+advanced:
+  css_class: ''
+  css_style: ''
+design:
+  background: {}
+  columns: '1'
+  spacing: {}
+headless: yes
+subtitle: ''
+weight: 1
+widget: blank
+---
+
+```{r}
+library(leaflet)
+m <- leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(lng=174.768, lat=-36.852, popup="The birthplace of R")
+m  # Print the map
+```
+
+
+
+
+[**Add some elements here**](https://sourcethemes.com/academic/docs/writing-markdown-latex/)

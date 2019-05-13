@@ -9,7 +9,6 @@ title = "Accomplish&shy;ments"
 subtitle = ""
 
 
-
 # Date format
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
 date_format = "Jan 2006"
@@ -19,6 +18,8 @@ date_format = "Jan 2006"
 #   `title`, `organization` and `date_start` are the required parameters.
 #   Leave other parameters empty if not required.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+
+
 
 [[item]]
   organization = "Coursera"
