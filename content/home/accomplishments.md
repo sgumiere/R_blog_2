@@ -8,6 +8,8 @@ weight = 50  # Order that this section will appear.
 title = "Accomplish&shy;ments"
 subtitle = ""
 
+
+
 # Date format
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
 date_format = "Jan 2006"
